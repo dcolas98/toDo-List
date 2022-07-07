@@ -22,19 +22,23 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
-body {
-    margin: auto;
+
+.bigDiv{
+  display: flex;
+  justify-content: center;
 }
 
 .todo-container {
-    position: absolute;
+    /* position: absolute;
     bottom: -50px;
-    left: 250px;
+    left: 250px; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;  
     width: 520px;
     min-height: 550px;
     background: #0b7798;
     text-align: center;
-    margin: 300px auto;
     border-radius: 25px;
     padding-bottom: 40px;
   }

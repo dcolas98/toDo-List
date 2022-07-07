@@ -27,12 +27,14 @@ export const ToDoList = () => {
 	}
   
 	return (
+		<div className="bigDiv">
 	<div className="todo-container">
 		<h1>To Do List</h1>
 		<ToDoForm onSubmit={addTodo} />
 		<ToDoItem 
 		todos={todos}
 		completeTodo={completeTodo} removeTodo={removeTodo} />
+	</div>
 	</div>
   );
 }
